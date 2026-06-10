@@ -43,6 +43,7 @@ let searchNotes = async(question)=>{
         score:parseFloat(score.toFixed(4))
        }));
 
+       console.log("Search complete")
        return filtered;
     }
     catch(error){
